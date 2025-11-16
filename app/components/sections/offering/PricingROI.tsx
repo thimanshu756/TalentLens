@@ -13,7 +13,7 @@ export default function PricingROI() {
       priceRange: '€18,000 – €35,000',
       description: 'One-time project fee depending on scale and customization',
       features: [
-        'Complete Azure cloud environment setup',
+        'Complete cloud environment setup',
         'Custom integration with your existing systems',
         'Data migration and security configuration',
         'Comprehensive team training and onboarding',

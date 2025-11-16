@@ -24,7 +24,7 @@ export default function AboutUs() {
             with AI
           </h2>
           <p className="text-base sm:text-lg text-text-secondary leading-relaxed mb-6">
-            Recruitment teams spend countless hours manually sifting through applications, causing delays, inconsistencies, and lost opportunities. TalentLens AI transforms this process with powerful AI algorithms that not only speed up candidate screening but also reduce bias and ensure full compliance with GDPR and local data laws.
+            Recruitment teams spend countless hours manually sifting through applications, causing delays, inconsistencies, and lost opportunities. Rakri AI transforms this process with powerful AI algorithms that not only speed up candidate screening but also reduce bias and ensure full compliance with GDPR and local data laws.
           </p>
           <p className="text-base sm:text-lg text-text-secondary leading-relaxed">
             Our customizable platform integrates seamlessly with your existing website and LinkedIn workflows, putting you ahead in the competitive hiring landscape.

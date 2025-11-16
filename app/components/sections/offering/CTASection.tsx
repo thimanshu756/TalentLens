@@ -40,7 +40,7 @@ export default function CTASection() {
             viewport={{ once: true }}
             className="text-lg md:text-xl text-text-secondary mb-8 leading-relaxed"
           >
-            Join leading European recruitment agencies using TalentLens AI to
+            Join leading European recruitment agencies using Rakri AI to
             screen candidates faster, smarter, and with complete GDPR compliance.
           </motion.p>
 

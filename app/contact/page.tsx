@@ -6,8 +6,8 @@ import ContactForm from '../components/sections/contact/ContactForm';
 import ContactInfo from '../components/sections/contact/ContactInfo';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | TalentLens AI',
-  description: 'Get in touch with TalentLens AI. Book a demo or contact our team to learn how we can transform your recruitment process with AI.',
+  title: 'Contact Us | Rakri AI',
+  description: 'Get in touch with Rakri AI. Book a demo or contact our team to learn how we can transform your recruitment process with AI.',
 };
 
 export default function ContactPage() {

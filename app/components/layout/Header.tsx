@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { clsx } from 'clsx';
 import Container from '../ui/Container';
 import Button from '../ui/Button';
+import Image from 'next/image';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,14 +42,14 @@ export default function Header() {
         <nav className="flex items-center justify-between py-3 sm:py-4 md:py-5">
           {/* Logo */}
           <a href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-electric-blue to-accent-hover flex items-center justify-center transform transition-transform group-hover:scale-110">
-              <span className="text-white font-bold text-base sm:text-xl">TL</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-text-primary font-bold text-base sm:text-xl leading-tight">
-                TalentLens
+          <Image src="/assets/logo.png" alt="Rakri AI" 
+          className="w-[50px] h-[50px] "
+          width={100} height={100} />
+            <div className="flex flex-col items-start">
+              <span className="text-text-primary font-bold text-base sm:text-2xl leading-tight">
+                RaKri
               </span>
-              <span className="text-electric-blue text-[10px] sm:text-xs font-semibold leading-tight">
+              <span className="text-electric-blue text-[10px] sm:text-[14px] font-semibold leading-tight">
                 AI
               </span>
             </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Container from '../ui/Container';
 
 export default function Footer() {
@@ -37,12 +38,12 @@ export default function Footer() {
             {/* Brand */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-electric-blue to-accent-hover flex items-center justify-center">
-                  <span className="text-white font-bold">TL</span>
-                </div>
+              <Image src="/assets/logo.png" alt="Rakri AI" 
+          className="w-[50px] h-[50px] "
+          width={100} height={100} />
                 <div className="flex flex-col">
                   <span className="text-text-primary font-bold text-lg leading-tight">
-                    TalentLens AI
+                    Rakri AI
                   </span>
                 </div>
               </div>
@@ -87,7 +88,7 @@ export default function Footer() {
 
           <div className="mt-8 pt-8 border-t border-slate-gray/20">
             <p className="text-text-secondary text-sm text-center">
-              {currentYear} TalentLens AI. All rights reserved. GDPR Compliant.
+              {currentYear} Rakri AI. All rights reserved. GDPR Compliant.
             </p>
           </div>
         </div>

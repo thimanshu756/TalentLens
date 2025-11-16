@@ -26,7 +26,7 @@ export default function ContactHero() {
           </h1>
           <p className="text-base sm:text-lg text-text-secondary leading-relaxed px-4 sm:px-0">
             Ready to transform your recruitment process? Contact us to schedule
-            a demo or learn more about TalentLens AI.
+            a demo or learn more about Rakri AI.
           </p>
         </motion.div>
       </Container>

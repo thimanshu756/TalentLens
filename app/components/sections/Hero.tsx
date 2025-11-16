@@ -1,8 +1,10 @@
 'use client';
 
+
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
 import Container from '../ui/Container';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -48,17 +50,15 @@ export default function Hero() {
             className="flex justify-center"
           >
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-gradient-to-br from-electric-blue to-accent-hover flex items-center justify-center shadow-2xl">
-                <span className="text-white font-bold text-lg sm:text-2xl">TL</span>
-              </div>
-              <div className="flex flex-col items-start">
-                <span className="text-text-primary font-bold text-2xl sm:text-3xl leading-tight">
-                  TalentLens
-                </span>
-                <span className="text-electric-blue text-sm sm:text-lg font-semibold leading-tight">
-                  AI
-                </span>
-              </div>
+            <Image src="/assets/logo.png" alt="Rakri AI" 
+          className="w-[70px] h-[70px] animate-spin transition-all"
+          style={{ animationDuration: '8s' }}
+          width={100} height={100} />
+
+          <div className="flex flex-col items-start"> 
+            <span className="text-text-primary font-bold text-base sm:text-3xl leading-tight">  Rakri </span>
+            <span className="text-electric-blue text-[10px] sm:text-lg font-semibold leading-tight">  AI </span>
+          </div>
             </div>
           </motion.div>
 
@@ -82,7 +82,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-base sm:text-lg md:text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed px-4 sm:px-0"
           >
-            TalentLens AI provides explainable, GDPR-compliant candidate scoring—hosted securely on your Azure cloud—empowering your recruitment team to focus on what matters most: finding the right talent faster.
+            Transform your recruitment process with AI-powered candidate screening that delivers transparent, explainable rankings while maintaining full GDPR compliance on your secure Cloud infrastructure.
           </motion.p>
 
           {/* CTA Buttons */}

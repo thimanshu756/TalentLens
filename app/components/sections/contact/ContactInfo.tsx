@@ -8,8 +8,8 @@ export default function ContactInfo() {
     {
       icon: <Mail className="w-5 h-5" />,
       label: 'Email',
-      value: 'contact@talentlens.ai',
-      link: 'mailto:contact@talentlens.ai',
+      value: 'contact@Rakri.ai',
+      link: 'mailto:contact@Rakri.ai',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {

@@ -12,7 +12,7 @@ export default function FAQ() {
     {
       question: 'Is my candidate data secure and GDPR-compliant?',
       answer:
-        'Yes, all data is hosted securely within your Azure environment under your control. We implement enterprise-grade security measures and ensure full GDPR compliance. You maintain complete ownership and auditability of all candidate data, with comprehensive encryption both in transit and at rest.',
+        'Yes, all data is hosted securely within your Cloud environment under your control. We implement enterprise-grade security measures and ensure full GDPR compliance. You maintain complete ownership and auditability of all candidate data, with comprehensive encryption both in transit and at rest.',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
@@ -30,7 +30,7 @@ export default function FAQ() {
     {
       question: 'Do we need technical resources from our side?',
       answer:
-        'No, we handle end-to-end integration and support. Our team manages the Azure setup, system integration, data migration, and ongoing maintenance. We provide comprehensive training for your recruiters and offer CET-aligned support to ensure smooth operations.',
+        'No, we handle end-to-end integration and support. Our team manages the Cloud setup, system integration, data migration, and ongoing maintenance. We provide comprehensive training for your recruiters and offer CET-aligned support to ensure smooth operations.',
       gradient: 'from-emerald-500 to-teal-500',
     },
     {
@@ -69,7 +69,7 @@ export default function FAQ() {
           viewport={{ once: true }}
           className="text-text-secondary text-base sm:text-lg max-w-3xl mx-auto px-4"
         >
-          Clear answers to common questions about TalentLens AI
+          Clear answers to common questions about Rakri AI
         </motion.p>
       </div>
 

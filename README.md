@@ -1,6 +1,6 @@
-# TalentLens AI - Website
+# Rakri AI - Website
 
-A premium, modern Next.js website for TalentLens AI - an AI-powered, GDPR-compliant recruitment platform specializing in client-hosted solutions for European and US recruitment agencies.
+A premium, modern Next.js website for Rakri AI - an AI-powered, GDPR-compliant recruitment platform specializing in client-hosted solutions for European and US recruitment agencies.
 
 ## Features
 
@@ -15,7 +15,7 @@ A premium, modern Next.js website for TalentLens AI - an AI-powered, GDPR-compli
 ## Project Structure
 
 ```
-talentlens/
+Rakri/
 ├── app/
 │   ├── components/
 │   │   ├── layout/
@@ -52,7 +52,7 @@ talentlens/
 - Dual CTAs: "Explore Our Solution" and "Book Your Demo"
 
 ### 2. Offering Page (`/offering`)
-- Why TalentLens AI section
+- Why Rakri AI section
 - Key benefits with numbered cards
 - Features snapshot grid
 - How It Works timeline
@@ -99,7 +99,7 @@ talentlens/
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd talentlens
+cd Rakri
 ```
 
 2. Install dependencies:
@@ -192,12 +192,12 @@ Colors are defined in `app/globals.css` using CSS variables:
 
 ## License
 
-Copyright 2025 TalentLens AI. All rights reserved.
+Copyright 2025 Rakri AI. All rights reserved.
 
 ## Support
 
 For questions or issues, contact:
-- Email: contact@talentlens.ai
+- Email: contact@Rakri.ai
 - Phone: +31 (0)20 123 4567 (Netherlands)
 - Phone: +91 80 1234 5678 (India)
-# TalentLens
+# Rakri

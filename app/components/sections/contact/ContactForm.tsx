@@ -14,6 +14,7 @@ export default function ContactForm() {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [consentGiven, setConsentGiven] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -30,6 +31,7 @@ export default function ContactForm() {
         phone: '',
         message: '',
       });
+      setConsentGiven(false);
 
       // Reset success message after 5 seconds
       setTimeout(() => setIsSubmitted(false), 5000);
@@ -194,14 +196,18 @@ export default function ContactForm() {
               </label>
             </div>
 
-            {/* GDPR Notice */}
+            {/* GDPR Consent Checkbox */}
             <div className="flex items-start gap-3 p-4 bg-slate-gray/5 border border-slate-gray/20 rounded-xl">
-              <svg className="w-5 h-5 text-electric-blue flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              <p className="text-xs sm:text-sm text-text-secondary leading-relaxed">
-                <span className="font-semibold text-text-primary">GDPR Compliant:</span> We process your data securely and only use it to respond to your inquiry. By submitting this form, you agree to our data processing in accordance with GDPR regulations.
-              </p>
+              <input
+                type="checkbox"
+                id="gdpr-consent"
+                checked={consentGiven}
+                onChange={(e) => setConsentGiven(e.target.checked)}
+                className="w-5 h-5 mt-0.5 flex-shrink-0 bg-navy-dark/50 border-2 border-slate-gray/30 rounded text-electric-blue focus:ring-2 focus:ring-electric-blue/20 focus:ring-offset-0 cursor-pointer transition-all duration-300"
+              />
+              <label htmlFor="gdpr-consent" className="text-xs sm:text-sm text-text-secondary leading-relaxed cursor-pointer">
+                <span className="font-semibold text-text-primary">GDPR Consent:</span> I agree to the processing of my personal data securely and only for the purpose of responding to my inquiry, in accordance with GDPR regulations. *
+              </label>
             </div>
 
             {/* Submit Button */}
@@ -209,7 +215,7 @@ export default function ContactForm() {
               type="submit"
               variant="primary"
               fullWidth
-              disabled={isSubmitting}
+              disabled={isSubmitting || !consentGiven}
             >
               {isSubmitting ? (
                 <span className="flex items-center justify-center gap-2">

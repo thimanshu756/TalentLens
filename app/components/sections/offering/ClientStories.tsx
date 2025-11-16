@@ -6,7 +6,7 @@ import Section from '../../ui/Section';
 export default function ClientStories() {
   const testimonial = {
     quote:
-      "TalentLens AI transformed our recruitment process. We're now screening candidates 80% faster while maintaining higher quality standards. The GDPR compliance and Azure hosting gave us complete peace of mind.",
+      "Rakri AI transformed our recruitment process. We're now screening candidates 80% faster while maintaining higher quality standards. The GDPR compliance and Cloud hosting gave us complete peace of mind.",
     author: 'Emma van der Berg',
     position: 'Head of Recruitment',
     company: 'Amsterdam Tech Recruiters',

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import OfferingHero from '../components/sections/offering/OfferingHero';
-import WhyTalentLens from '../components/sections/offering/WhyTalentLens';
+import WhyRakri from '../components/sections/offering/WhyRakri';
 import KeyBenefits from '../components/sections/offering/KeyBenefits';
 import Features from '../components/sections/offering/Features';
 import HowItWorks from '../components/sections/offering/HowItWorks';
@@ -11,8 +11,8 @@ import FAQ from '../components/sections/offering/FAQ';
 import CTASection from '../components/sections/offering/CTASection';
 
 export const metadata: Metadata = {
-  title: 'Our Offering | TalentLens AI',
-  description: 'Discover how TalentLens AI revolutionizes recruitment with GDPR-compliant, AI-powered candidate screening. 75%-90% faster screening, bias reduction, and seamless integration.',
+  title: 'Our Offering | Rakri AI',
+  description: 'Discover how Rakri AI revolutionizes recruitment with GDPR-compliant, AI-powered candidate screening. 75%-90% faster screening, bias reduction, and seamless integration.',
 };
 
 export default function OfferingPage() {
@@ -21,7 +21,7 @@ export default function OfferingPage() {
       <Header />
       <main className="pt-20">
         <OfferingHero />
-        <WhyTalentLens />
+        <WhyRakri />
         <KeyBenefits />
         <HowItWorks />
         <Features />

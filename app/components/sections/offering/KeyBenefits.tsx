@@ -53,9 +53,9 @@ export default function KeyBenefits() {
       icon: <Shield className="w-8 h-8" />,
       title: 'Full Data Privacy Control',
       description:
-        'With your data hosted securely on your own Azure environment, you meet all compliance demands without sacrificing flexibility or performance.',
+        'With your data hosted securely on your own Cloud environment, you meet all compliance demands without sacrificing flexibility or performance.',
       details: [
-        'Data hosted on your Azure cloud',
+        'Data hosted on your cloud',
         'Complete GDPR and regional compliance',
         'Full audit trails and data control',
         'Enterprise-grade security standards',

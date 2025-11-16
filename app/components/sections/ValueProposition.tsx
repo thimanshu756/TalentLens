@@ -40,7 +40,7 @@ export default function ValueProposition() {
         >
           Why{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-            TalentLens AI
+            Rakri AI
           </span>{' '}
           is the Future of Recruitment
         </motion.h2>

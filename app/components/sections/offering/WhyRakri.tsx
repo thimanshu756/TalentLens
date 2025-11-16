@@ -5,14 +5,14 @@ import Section from '../../ui/Section';
 import { ShieldCheck, Globe, Brain, Plug } from 'lucide-react';
 import Image from 'next/image';
 
-export default function WhyTalentLens() {
-  
+export default function WhyRakri() {
+
   const features = [
     {
       icon: <ShieldCheck className="w-10 h-10" />,
       title: 'GDPR & Data Sovereignty Guaranteed',
       description:
-        'We understand European and US privacy laws inside out. Your candidate data resides securely on your Azure cloud resources. You have full control and auditability of all data flows, fully compliant with GDPR and other regional mandates.',
+        'We understand European and US privacy laws inside out. Your candidate data resides securely on your cloud resources. You have full control and auditability of all data flows, fully compliant with GDPR and other regional mandates.',
       gradient: 'from-blue-500/20 to-cyan-500/20',
       borderGradient: 'from-blue-500 to-cyan-500',
     },
@@ -36,7 +36,7 @@ export default function WhyTalentLens() {
       icon: <Plug className="w-10 h-10" />,
       title: 'Custom Integration with Your Existing Systems',
       description:
-        'Whether you use LinkedIn, WordPress, or custom career sites, TalentLens AI integrates smoothly, preserving your workflows with minimal disruption.',
+        'Whether you use LinkedIn, WordPress, or custom career sites, Rakri AI integrates smoothly, preserving your workflows with minimal disruption.',
       gradient: 'from-orange-500/20 to-red-500/20',
       borderGradient: 'from-orange-500 to-red-500',
     },
@@ -54,7 +54,7 @@ export default function WhyTalentLens() {
         >
           Why{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-            TalentLens AI?
+            Rakri AI?
           </span>
         </motion.h2>
         <motion.p
@@ -77,7 +77,7 @@ export default function WhyTalentLens() {
         className="mb-12 sm:mb-16"
       >
         <div className="relative w-full max-w-4xl mx-auto aspect-video bg-gradient-to-br from-slate-gray/20 to-navy-dark/40 rounded-2xl border-2 border-slate-gray/30 overflow-hidden group">
-         <Image src="/assets/offering/data-security.png" alt="Why TalentLens AI" width={1000} height={1000}  className="w-full h-full object-cover" />
+         <Image src="/assets/offering/data-security.png" alt="Why Rakri AI" width={1000} height={1000}  className="w-full h-full object-cover" />
         </div>
       </motion.div>
 

@@ -2,11 +2,14 @@
 
 import { motion } from 'framer-motion';
 import Section from '../../ui/Section';
-import { Upload, Sparkles, UserCheck, TrendingUp } from 'lucide-react';
+import { Upload, Sparkles, UserCheck, TrendingUp, Zap } from 'lucide-react';
 import Image from 'next/image';
+import { useState } from 'react';
 
 export default function HowItWorks() {
-  const steps = [
+  const [activeLevel, setActiveLevel] = useState<'level1' | 'level2'>('level1');
+
+  const level1Steps = [
     {
       number: 1,
       icon: <Upload className="w-8 h-8" />,
@@ -41,6 +44,43 @@ export default function HowItWorks() {
     },
   ];
 
+  const level2Steps = [
+    {
+      number: 1,
+      icon: <Upload className="w-8 h-8" />,
+      title: 'Candidate Applies',
+      description: 'Candidates submit applications through your current site or LinkedIn.',
+      details: 'Applications flow seamlessly from all your integrated platforms into a single unified pipeline.',
+      gradient: 'from-blue-500 to-cyan-500',
+    },
+    {
+      number: 2,
+      icon: <Sparkles className="w-8 h-8" />,
+      title: 'AI Scores and Ranks',
+      description: 'Our AI analyzes and scores each profile with clear explanations.',
+      details: 'Advanced NLP and machine learning models evaluate candidates against job requirements in seconds.',
+      gradient: 'from-purple-500 to-pink-500',
+    },
+    {
+      number: 3,
+      icon: <Zap className="w-8 h-8" />,
+      title: 'AI Shortlists Automatically',
+      description: 'AI autonomously selects top candidates based on your predefined criteria.',
+      details: 'Fully automated shortlisting eliminates manual review while maintaining high accuracy and consistency.',
+      gradient: 'from-amber-500 to-orange-500',
+    },
+    {
+      number: 4,
+      icon: <TrendingUp className="w-8 h-8" />,
+      title: 'Hire Confidently and Quickly',
+      description: 'Shorter time-to-hire and better hiring decisions power your growth.',
+      details: 'Track improvements in recruitment efficiency with built-in analytics and ROI metrics.',
+      gradient: 'from-emerald-500 to-teal-500',
+    },
+  ];
+
+  const steps = activeLevel === 'level1' ? level1Steps : level2Steps;
+
   return (
     <Section background="slate">
       <div className="text-center mb-12 sm:mb-16">
@@ -65,6 +105,38 @@ export default function HowItWorks() {
         >
           A simple, streamlined process from application to hire
         </motion.p>
+
+        {/* Level Toggle */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="mt-8 flex justify-center"
+        >
+          <div className="inline-flex bg-navy-dark/50 backdrop-blur-sm rounded-full p-1.5 border border-slate-gray/20">
+            <button
+              onClick={() => setActiveLevel('level1')}
+              className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${
+                activeLevel === 'level1'
+                  ? 'bg-gradient-to-r from-electric-blue to-accent-hover text-white shadow-lg shadow-electric-blue/25'
+                  : 'text-text-secondary hover:text-text-primary'
+              }`}
+            >
+              Level 1: Human-in-the-Loop
+            </button>
+            <button
+              onClick={() => setActiveLevel('level2')}
+              className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${
+                activeLevel === 'level2'
+                  ? 'bg-gradient-to-r from-electric-blue to-accent-hover text-white shadow-lg shadow-electric-blue/25'
+                  : 'text-text-secondary hover:text-text-primary'
+              }`}
+            >
+              Level 2: Fully Autonomous
+            </button>
+          </div>
+        </motion.div>
       </div>
 
 

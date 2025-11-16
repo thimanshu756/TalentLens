@@ -10,19 +10,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "TalentLens AI | AI-Powered GDPR-Compliant Recruitment Platform",
-  description: "Transform hiring with AI. TalentLens AI delivers 75% faster candidate screening with explainable AI scoring, hosted securely on your Azure cloud. Fully GDPR-compliant recruitment solutions for European and US agencies.",
-  keywords: ["AI recruitment", "GDPR recruitment software", "candidate screening", "Azure recruitment", "European hiring solutions", "AI candidate scoring"],
-  authors: [{ name: "TalentLens AI" }],
+  title: "Rakri AI | AI-Powered GDPR-Compliant Recruitment Platform",
+  description: "Transform hiring with AI. Rakri AI delivers 75% faster candidate screening with explainable AI scoring, hosted securely on your cloud. Fully GDPR-compliant recruitment solutions for European and US agencies.",
+  keywords: ["AI recruitment", "GDPR recruitment software", "candidate screening", "cloud recruitment", "European hiring solutions", "AI candidate scoring"],
+  authors: [{ name: "Rakri AI" }],
   openGraph: {
-    title: "TalentLens AI | AI-Powered Recruitment Platform",
+    title: "Rakri AI | AI-Powered Recruitment Platform",
     description: "Transform hiring with AI: 75% faster candidate screening, fully GDPR-compliant",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TalentLens AI | AI-Powered Recruitment Platform",
+    title: "Rakri AI | AI-Powered Recruitment Platform",
     description: "Transform hiring with AI: 75% faster candidate screening, fully GDPR-compliant",
   },
   robots: {

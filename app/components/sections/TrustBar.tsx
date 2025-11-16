@@ -11,7 +11,7 @@ export default function TrustBar() {
 
       // same GDPR shield icon
       title: 'Committed to GDPR & Data Privacy',
-      description: 'We host all data within your Azure cloud to uphold strict EU data laws and safeguard candidate information.',
+      description: 'We host all data within your cloud to uphold strict EU data laws and safeguard candidate information.',
     },
     {
       icon: <Users className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" />,
@@ -45,7 +45,7 @@ export default function TrustBar() {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
             Trust
           </span>{' '}
-          TalentLens AI
+          Rakri AI
         </motion.h2>
       </div>
 
@@ -57,18 +57,23 @@ export default function TrustBar() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="flex gap-4 sm:gap-5 p-6 sm:p-8 bg-slate-gray/5 rounded-2xl border border-slate-gray/20 hover:border-electric-blue/50 transition-all duration-300 group"
+            className="relative flex gap-4 sm:gap-5 p-6 sm:p-8 bg-slate-gray/5 rounded-2xl border border-slate-gray/20 hover:border-electric-blue/50 hover:shadow-lg hover:shadow-electric-blue/10 transition-all duration-300 group overflow-hidden"
           >
-            <div className="flex-shrink-0">
-              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-electric-blue/10 text-electric-blue flex items-center justify-center group-hover:bg-electric-blue group-hover:text-white transition-all duration-300">
-                {point.icon}
+            {/* Animated gradient background on hover */}
+            <div className="absolute inset-0 bg-gradient-to-br from-electric-blue/0 to-accent-hover/0 group-hover:from-electric-blue/5 group-hover:to-accent-hover/5 transition-all duration-500 rounded-2xl" />
+
+            <div className="flex-shrink-0 relative z-10">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-electric-blue/10 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-electric-blue/20">
+                <div className="text-electric-blue group-hover:text-white transition-colors duration-300">
+                  {point.icon}
+                </div>
               </div>
             </div>
-            <div>
-              <h3 className="text-lg sm:text-xl font-bold text-text-primary mb-2 sm:mb-3">
+            <div className="relative z-10">
+              <h3 className="text-lg sm:text-xl font-bold text-text-primary mb-2 sm:mb-3 group-hover:text-electric-blue transition-colors duration-300">
                 {point.title}
               </h3>
-              <p className="text-sm sm:text-base text-text-secondary leading-relaxed">
+              <p className="text-sm sm:text-base text-text-secondary leading-relaxed group-hover:text-text-primary transition-colors duration-300">
                 {point.description}
               </p>
             </div>

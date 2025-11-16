@@ -16,7 +16,7 @@ export default function HowWeHelp() {
     },
     {
       icon: '🔐',
-      text: 'Maintain complete control of your data, safely hosted on your Azure cloud environment',
+      text: 'Maintain complete control of your data, safely hosted on your cloud environment',
     },
     {
       icon: '🔗',

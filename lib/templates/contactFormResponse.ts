@@ -165,7 +165,7 @@ export const contactUsEmail = (
                   <table role="presentation" cellpadding="0" cellspacing="0">
                     <tr>
                       <td style="border-radius:12px; background:${brandPrimary}; box-shadow:0 4px 14px rgba(49, 120, 198, 0.3);">
-                        <a href="mailto:contact@rakriai.com" style="display:inline-block; padding:14px 32px; font-family:'Inter', Arial, sans-serif; font-size:15px; font-weight:600; color:#ffffff; text-decoration:none; border-radius:12px;">
+                        <a href="mailto:connect@rakriai.com" style="display:inline-block; padding:14px 32px; font-family:'Inter', Arial, sans-serif; font-size:15px; font-weight:600; color:#ffffff; text-decoration:none; border-radius:12px;">
                           📧 Reply to this email
                         </a>
                       </td>
@@ -212,7 +212,7 @@ export const contactUsEmail = (
                             </td>
                             <td align="right" style="font-family:'Inter', Arial, sans-serif; font-size:12px; color:${mutedColor}; line-height:1.6;">
                               <strong style="color:${textDark};">Contact</strong><br/>
-                              📧 contact@rakriai.com<br/>
+                              📧 connect@rakriai.com<br/>
                               🌐 www.rakriai.com
                             </td>
                           </tr>

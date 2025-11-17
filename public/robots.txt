@@ -74,11 +74,20 @@ Allow: /
 # ============================================================================
 # DISALLOWED PATHS (Uncomment to block specific directories)
 # ============================================================================
-# Disallow: /api/          # Block API endpoints from indexing
+Disallow: /api/          # Block API endpoints from indexing
 # Disallow: /admin/        # Block admin pages
 # Disallow: /private/      # Block private content
 # Disallow: /*.json$       # Block JSON files
 # Disallow: /checkout      # Block checkout process pages
+
+# ============================================================================
+# EXPLICITLY ALLOWED PATHS (Important pages to index)
+# ============================================================================
+# Legal pages are important for compliance and trust signals
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /contact
+Allow: /offering
 
 # ============================================================================
 # SITEMAP LOCATION

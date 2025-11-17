@@ -12,7 +12,7 @@ import { MetadataRoute } from 'next';
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   // REPLACE_ME: Update baseUrl with your actual domain
-  const baseUrl = 'https://REPLACE_ME_YOUR_DOMAIN.com';
+  const baseUrl = 'https://rakriai.com';
 
   // Get current date for lastModified (indicates freshness to search engines)
   const currentDate = new Date();
@@ -59,6 +59,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     // ========================================================================
+    // OFFERING PAGE
+    // ========================================================================
+    {
+      url: `${baseUrl}/offering`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9, // High priority - main product page
+    },
+
+    // ========================================================================
+    // LEGAL PAGES
+    // ========================================================================
+    {
+      url: `${baseUrl}/privacy-policy`,
+      lastModified: new Date('2025-01-17'), // Update when policy changes
+      changeFrequency: 'yearly',
+      priority: 0.3, // Lower priority but important for compliance
+    },
+    {
+      url: `${baseUrl}/terms-of-service`,
+      lastModified: new Date('2025-01-17'), // Update when terms change
+      changeFrequency: 'yearly',
+      priority: 0.3, // Lower priority but important for compliance
+    },
+
+    // ========================================================================
     // ADDITIONAL PAGES (Uncomment and modify as needed)
     // ========================================================================
     // {
@@ -78,18 +104,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     //   lastModified: currentDate,
     //   changeFrequency: 'monthly',
     //   priority: 0.7,
-    // },
-    // {
-    //   url: `${baseUrl}/privacy-policy`,
-    //   lastModified: currentDate,
-    //   changeFrequency: 'yearly',
-    //   priority: 0.3,
-    // },
-    // {
-    //   url: `${baseUrl}/terms-of-service`,
-    //   lastModified: currentDate,
-    //   changeFrequency: 'yearly',
-    //   priority: 0.3,
     // },
 
     // ========================================================================

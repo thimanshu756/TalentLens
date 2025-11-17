@@ -197,7 +197,7 @@ Copyright 2025 Rakri AI. All rights reserved.
 ## Support
 
 For questions or issues, contact:
-- Email: contact@rakriai.com
+- Email: connect@rakriai.com
 - Phone: +31 (0)20 123 4567 (Netherlands)
 - Phone: +91 80 1234 5678 (India)
 # Rakri

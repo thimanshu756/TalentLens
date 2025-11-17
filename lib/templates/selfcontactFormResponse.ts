@@ -227,7 +227,7 @@ ${safeMessage}
                         </a>
                       </td>
                       <td style="padding-left:12px;">
-                        <a href="mailto:contact@rakriai.com" style="display:inline-block; padding:16px 32px; font-family:'Inter', Arial, sans-serif; font-size:15px; font-weight:700; color:${brandPrimary}; text-decoration:none; border:2px solid ${brandPrimary}; border-radius:12px; background:#ffffff;">
+                        <a href="mailto:connect@rakriai.com" style="display:inline-block; padding:16px 32px; font-family:'Inter', Arial, sans-serif; font-size:15px; font-weight:700; color:${brandPrimary}; text-decoration:none; border:2px solid ${brandPrimary}; border-radius:12px; background:#ffffff;">
                           📋 View Dashboard
                         </a>
                       </td>
@@ -312,7 +312,7 @@ ${safeMessage}
                           A Clearer View of Talent with Precision AI
                         </div>
                         <div style="font-family:'Inter', Arial, sans-serif; font-size:12px; color:${mutedColor}; line-height:1.6;">
-                          📧 contact@rakriai.com | 🌐 www.rakriai.com
+                          📧 connect@rakriai.com | 🌐 www.rakriai.com
                         </div>
                         <div style="font-family:'Inter', Arial, sans-serif; font-size:11px; color:${mutedColor}; margin-top:16px;">
                           This is an automated notification from the Rakri AI contact form system.

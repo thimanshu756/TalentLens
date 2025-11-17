@@ -18,7 +18,7 @@ interface ContactData {
 
 export async function POST(request: NextRequest) {
   try {
-    const myemail = process.env.ADMIN_EMAIL || "contact@rakriai.com";
+    const myemail = process.env.ADMIN_EMAIL || "connect@rakriai.com";
     const {
       firstName,
       lastName,

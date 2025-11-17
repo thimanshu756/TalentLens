@@ -68,7 +68,7 @@ export default function Home() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service', // Type: sales, customer service, technical support, billing, etc.
-      email: 'REPLACE_ME_contact@rakriai.com', // REPLACE_ME: Your contact email
+      email: 'REPLACE_ME_connect@rakriai.com', // REPLACE_ME: Your contact email
       availableLanguage: ['English'], // Languages your support team speaks
       areaServed: ['US', 'EU'], // REPLACE_ME: Geographic areas you serve (ISO country codes)
     },

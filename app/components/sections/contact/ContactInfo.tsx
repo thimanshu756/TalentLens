@@ -8,8 +8,8 @@ export default function ContactInfo() {
     {
       icon: <Mail className="w-5 h-5" />,
       label: 'Email',
-      value: 'contact@Rakri.ai',
-      link: 'mailto:contact@Rakri.ai',
+      value: 'contact@rakriai.com',
+      link: 'mailto:contact@Rakriai.com',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {

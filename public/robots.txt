@@ -1,0 +1,101 @@
+# ============================================================================
+# ROBOTS.TXT - Search Engine and AI Crawler Configuration
+# ============================================================================
+# This file controls how web crawlers and AI bots access your site
+# Learn more: https://developers.google.com/search/docs/crawling-indexing/robots/intro
+
+# ============================================================================
+# GOOGLE CRAWLERS
+# ============================================================================
+# Googlebot - Main Google search crawler
+User-agent: Googlebot
+Allow: /
+
+# Googlebot-Image - Google Images crawler
+User-agent: Googlebot-Image
+Allow: /
+
+# ============================================================================
+# BING CRAWLER
+# ============================================================================
+# Bingbot - Microsoft Bing search crawler
+User-agent: Bingbot
+Allow: /
+
+# ============================================================================
+# AI CHATBOT CRAWLERS (ChatGPT, Claude, Perplexity)
+# ============================================================================
+# GPTBot - OpenAI's web crawler for ChatGPT training data
+User-agent: GPTBot
+Allow: /
+
+# ChatGPT-User - ChatGPT's real-time web browsing
+User-agent: ChatGPT-User
+Allow: /
+
+# ClaudeBot - Anthropic's Claude AI crawler
+User-agent: ClaudeBot
+Allow: /
+
+# Claude-Web - Anthropic's web crawler for Claude
+User-agent: Claude-Web
+Allow: /
+
+# anthropic-ai - Anthropic's general AI crawler
+User-agent: anthropic-ai
+Allow: /
+
+# PerplexityBot - Perplexity AI's search crawler
+User-agent: PerplexityBot
+Allow: /
+
+# ============================================================================
+# OTHER MAJOR SEARCH ENGINE CRAWLERS
+# ============================================================================
+# Slurp - Yahoo/Verizon Media crawler
+User-agent: Slurp
+Allow: /
+
+# DuckDuckBot - DuckDuckGo search crawler
+User-agent: DuckDuckBot
+Allow: /
+
+# Baiduspider - Baidu (Chinese search engine) crawler
+User-agent: Baiduspider
+Allow: /
+
+# ============================================================================
+# DEFAULT RULE FOR ALL OTHER CRAWLERS
+# ============================================================================
+# Applies to any crawler not specifically mentioned above
+User-agent: *
+Allow: /
+
+# ============================================================================
+# DISALLOWED PATHS (Uncomment to block specific directories)
+# ============================================================================
+# Disallow: /api/          # Block API endpoints from indexing
+# Disallow: /admin/        # Block admin pages
+# Disallow: /private/      # Block private content
+# Disallow: /*.json$       # Block JSON files
+# Disallow: /checkout      # Block checkout process pages
+
+# ============================================================================
+# SITEMAP LOCATION
+# ============================================================================
+# REPLACE_ME: Update with your actual domain
+Sitemap: https://REPLACE_ME_YOUR_DOMAIN.com/sitemap.xml
+
+# ============================================================================
+# CRAWL DELAY (Optional - Uncomment if needed)
+# ============================================================================
+# Crawl-delay: 10         # Wait 10 seconds between requests (use sparingly)
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# - Allow: / means crawlers can access all pages
+# - Disallow: /path means crawlers cannot access that path
+# - Sitemap helps crawlers discover all your pages efficiently
+# - AI crawlers (GPTBot, ClaudeBot, etc.) use your content for training/responses
+# - Block AI crawlers if you don't want your content used for AI training

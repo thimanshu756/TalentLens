@@ -14,7 +14,7 @@ export const mailSender = async (
   }>
 ) => {
   try {
-    // Try different Zoho Mail configurations
+    // Rakri AI - Zoho Mail configurations
     const configs = [
       {
         host: "smtp.zoho.in",
@@ -67,7 +67,7 @@ export const mailSender = async (
     }
 
     const info = await transporter.sendMail({
-      from: process.env.MAIL_USER || "Primastat Services <noreply@primastat.io>",
+      from: process.env.MAIL_USER || "Rakri AI <connect@rakriai.com>",
       to: `${email}`,
       subject: `${title}`,
       html: `${body}`,

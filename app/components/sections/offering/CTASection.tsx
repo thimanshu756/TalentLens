@@ -51,7 +51,7 @@ export default function CTASection() {
             viewport={{ once: true }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Button href="/contact" variant="primary">
+            <Button calLink="rakri-ai-vhtois/15min" variant="primary">
               Book a Demo
             </Button>
             <a

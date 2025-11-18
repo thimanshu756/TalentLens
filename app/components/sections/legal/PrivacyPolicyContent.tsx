@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Shield, Lock, Eye, FileText, Mail, ChevronDown, ChevronRight, Info, CheckCircle2, AlertCircle } from 'lucide-react';
 import Container from '../../ui/Container';
 import { privacyPolicyContent } from '../../../../content/privacy-policy';
+import { openCalComPopup } from '../../../../utils/calcom';
 
 export default function PrivacyPolicyContent() {
   const [expandedSections, setExpandedSections] = useState<string[]>([]);
@@ -273,12 +274,12 @@ export default function PrivacyPolicyContent() {
                       <Mail className="w-5 h-5 mr-2" />
                       Contact Us
                     </a>
-                    <a
-                      href="/contact"
+                    <button
+                      onClick={() => openCalComPopup('rakri-ai-vhtois/15min')}
                       className="inline-flex items-center px-6 py-3 bg-transparent hover:bg-slate-gray/10 text-electric-blue border border-electric-blue font-semibold rounded-lg transition-colors duration-200"
                     >
                       Book a Demo
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>

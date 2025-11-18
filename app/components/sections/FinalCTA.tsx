@@ -26,7 +26,7 @@ export default function FinalCTA() {
           <p className="text-base sm:text-lg text-text-secondary leading-relaxed mb-8">
             We partner closely with recruitment teams to deliver custom AI solutions that increase productivity and quality. Schedule a demo to see how Rakri AI can transform your hiring process.
           </p>
-          <Button href="/contact" variant="primary">
+          <Button calLink="rakri-ai-vhtois/15min" variant="primary">
             Schedule Your Demo
           </Button>
         </motion.div>

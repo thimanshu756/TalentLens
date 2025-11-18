@@ -47,7 +47,7 @@ export default function Header() {
           width={100} height={100} />
             <div className="flex flex-col items-start">
               <span className="text-text-primary font-bold text-base sm:text-2xl leading-tight">
-                RaKri
+                Rakri
               </span>
               <span className="text-electric-blue text-[10px] sm:text-[14px] font-semibold leading-tight">
                 AI
@@ -67,7 +67,7 @@ export default function Header() {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-electric-blue transition-all duration-300 group-hover:w-full" />
               </a>
             ))}
-            <Button href="/contact" variant="primary" className="text-sm">
+            <Button calLink="rakri-ai-vhtois/15min" variant="primary" className="text-sm">
               Book Demo
             </Button>
           </div>
@@ -122,7 +122,7 @@ export default function Header() {
                   {link.name}
                 </a>
               ))}
-              <Button href="/contact" variant="primary" fullWidth>
+              <Button calLink="rakri-ai-vhtois/15min" variant="primary" fullWidth>
                 Book Demo
               </Button>
             </div>

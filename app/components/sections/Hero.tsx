@@ -95,7 +95,7 @@ export default function Hero() {
             <Button href="/offering" variant="primary">
               See Full Solution
             </Button>
-            <Button href="/contact" variant="secondary">
+            <Button calLink="rakri-ai-vhtois/15min" variant="secondary">
               Book a Personalized Demo
             </Button>
           </motion.div>

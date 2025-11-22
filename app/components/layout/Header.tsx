@@ -33,7 +33,7 @@ export default function Header() {
       transition={{ duration: 0.6 }}
       className={clsx(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? 'bg-navy-dark/95 backdrop-blur-lg shadow-lg'
           : 'bg-transparent'
       )}

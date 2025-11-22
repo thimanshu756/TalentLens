@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Clock, Globe, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Globe, Linkedin, Twitter, Calendar } from 'lucide-react';
+import Button from '../../ui/Button';
 
 export default function ContactInfo() {
   const contactDetails = [
@@ -50,6 +51,36 @@ export default function ContactInfo() {
       viewport={{ once: true }}
       className="space-y-6"
     >
+      {/* Schedule a Call Card */}
+      <div className="relative p-6 sm:p-8 bg-gradient-to-br from-electric-blue/10 to-accent-hover/10 backdrop-blur-sm rounded-2xl border-2 border-electric-blue/30 hover:border-electric-blue/50 transition-all duration-300 overflow-hidden group">
+        <div className="absolute top-0 right-0 w-48 h-48 bg-electric-blue/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+        <div className="relative text-center">
+          <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-electric-blue to-accent-hover mb-4">
+            <Calendar className="w-6 h-6 text-white" />
+          </div>
+
+          <h3 className="text-xl font-bold text-text-primary mb-2">
+            Prefer a Direct Call?
+          </h3>
+
+          <p className="text-text-secondary text-sm mb-6 leading-relaxed">
+            Schedule a 15-minute consultation with our team to discuss your recruitment needs
+          </p>
+
+          <Button
+            variant="primary"
+            calLink="rakri-ai-vhtois/15min"
+            fullWidth
+          >
+            <span className="flex items-center justify-center gap-2">
+              <Calendar className="w-5 h-5" />
+              Schedule a Call
+            </span>
+          </Button>
+        </div>
+      </div>
+
       {/* Contact Details Card */}
       <div className="relative p-6 sm:p-8 bg-gradient-to-br from-slate-gray/10 to-navy-dark/50 backdrop-blur-sm rounded-2xl border-2 border-slate-gray/30 hover:border-electric-blue/30 transition-all duration-300 overflow-hidden group">
         <div className="absolute top-0 right-0 w-48 h-48 bg-electric-blue/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -166,7 +197,6 @@ export default function ContactInfo() {
           ))}
         </div>
       </div>
-
 
     </motion.div>
   );

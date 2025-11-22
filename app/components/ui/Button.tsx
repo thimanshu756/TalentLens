@@ -83,9 +83,7 @@ export default function Button({
   }
 
   return (
-    <button 
-                data-cal-link="primastat"
-                            data-cal-config='{"layout":"month_view"}'
+    <button
     className={classes} onClick={handleClick} {...props}>
       {content}
     </button>

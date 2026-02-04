@@ -28,9 +28,9 @@ export default function CTASection() {
           >
             Ready to{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-              Revolutionize
+              Future-Proof
             </span>{' '}
-            Your Recruitment?
+            Your Infrastructure?
           </motion.h2>
 
           <motion.p
@@ -40,8 +40,8 @@ export default function CTASection() {
             viewport={{ once: true }}
             className="text-lg md:text-xl text-text-secondary mb-8 leading-relaxed"
           >
-            Join leading European recruitment agencies using Rakri AI to
-            screen candidates faster, smarter, and with complete GDPR compliance.
+            Join forward-thinking enterprises using Rakri AI to
+            build secure, scalable, and compliant AI backbones on their own cloud.
           </motion.p>
 
           <motion.div

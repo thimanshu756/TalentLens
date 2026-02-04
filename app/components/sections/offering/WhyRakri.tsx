@@ -12,31 +12,31 @@ export default function WhyRakri() {
       icon: <ShieldCheck className="w-10 h-10" />,
       title: 'GDPR & Data Sovereignty Guaranteed',
       description:
-        'We understand European and US privacy laws inside out. Your candidate data resides securely on your cloud resources. You have full control and auditability of all data flows, fully compliant with GDPR and other regional mandates.',
+        'We understand European and US privacy laws inside out. Your proprietary data resides securely on your cloud resources. You have full control and auditability of all data flows, fully compliant with GDPR and other regional mandates.',
       gradient: 'from-blue-500/20 to-cyan-500/20',
       borderGradient: 'from-blue-500 to-cyan-500',
     },
     {
       icon: <Brain className="w-10 h-10" />,
-      title: 'Transparent & Explainable AI Scoring',
+      title: 'Transparent & Explainable AI',
       description:
-        'Our proprietary AI doesn\'t just score candidates — it explains why. Each recommendation includes detailed, understandable reasoning so your team retains complete control and trust.',
+        'Our proprietary AI architecture explains its reasoning. Each inference includes detailed, understandable logs so your teams retain complete control and trust in automated decisions.',
       gradient: 'from-purple-500/20 to-pink-500/20',
       borderGradient: 'from-purple-500 to-pink-500',
     },
     {
       icon: <Globe className="w-10 h-10" />,
-      title: 'Designed for Your Region & Culture',
+      title: 'Global Compliance & Localization',
       description:
-        'We align with local recruitment practices in Europe and the US, including CET timezone support, multi-language readiness, and deep knowledge of regional hiring norms.',
+        'We align with local compliance standards in Europe and the US, including CET timezone support, multi-region failover, and deep knowledge of data residency regulations.',
       gradient: 'from-emerald-500/20 to-teal-500/20',
       borderGradient: 'from-emerald-500 to-teal-500',
     },
     {
       icon: <Plug className="w-10 h-10" />,
-      title: 'Custom Integration with Your Existing Systems',
+      title: 'Custom Integration with Your Stack',
       description:
-        'Whether you use LinkedIn, WordPress, or custom career sites, Rakri AI integrates smoothly, preserving your workflows with minimal disruption.',
+        'Whether you use SAP, Salesforce, or custom internal tools, Rakri AI integrates smoothly via robust APIs, preserving your workflows with minimal disruption.',
       gradient: 'from-orange-500/20 to-red-500/20',
       borderGradient: 'from-orange-500 to-red-500',
     },
@@ -77,7 +77,7 @@ export default function WhyRakri() {
         className="mb-12 sm:mb-16"
       >
         <div className="relative w-full max-w-4xl mx-auto aspect-video bg-gradient-to-br from-slate-gray/20 to-navy-dark/40 rounded-2xl border-2 border-slate-gray/30 overflow-hidden group">
-         <Image src="/assets/offering/data-security.png" alt="Why Rakri AI" width={1000} height={1000}  className="w-full h-full object-cover" />
+          <Image src="/assets/offering/data-security.png" alt="Secure AI Infrastructure" width={1000} height={1000} className="w-full h-full object-cover" />
         </div>
       </motion.div>
 

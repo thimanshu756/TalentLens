@@ -9,44 +9,44 @@ export default function PricingROI() {
   const pricingDetails = [
     {
       icon: <DollarSign className="w-8 h-8" />,
-      title: 'Project Setup & Deployment',
+      title: 'Platform Implementation',
       priceRange: '€18,000 – €35,000',
-      description: 'One-time project fee depending on scale and customization',
+      description: 'One-time fee for secure cloud setup and custom integrations',
       features: [
-        'Complete cloud environment setup',
-        'Custom integration with your existing systems',
-        'Data migration and security configuration',
-        'Comprehensive team training and onboarding',
-        'Initial AI model tuning for your requirements',
+        'Dedicated cloud environment setup',
+        'Custom API & data pipeline integration',
+        'Security auditing and configuration',
+        'Team training and documentation',
+        'Initial model fine-tuning',
       ],
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
       icon: <Euro className="w-8 h-8" />,
-      title: 'Annual Support & Updates',
+      title: 'Infrastructure Management',
       priceRange: 'Starting at €1,500/year',
-      description: 'Optional ongoing support to keep your system optimized',
+      description: 'Optional managed services to keep your AI backbone resilient',
       features: [
         'Security patches and system updates',
-        'GDPR compliance monitoring',
-        'Technical support during CET hours',
+        'Real-time uptime monitoring',
+        'Technical support (CET business hours)',
         'Performance optimization',
-        'Feature enhancements and improvements',
+        'Infrastructure scaling management',
       ],
       gradient: 'from-purple-500 to-pink-500',
       optional: true,
     },
     {
       icon: <Clock className="w-8 h-8" />,
-      title: 'AI Usage Charges',
-      priceRange: '€2 – €4 per candidate',
-      description: 'Pay-per-use pricing covering cloud AI API costs',
+      title: 'Usage & Inference',
+      priceRange: 'Volume Based',
+      description: 'Pay-per-use model scaling with your data volume',
       features: [
-        'Full resume analysis and scoring',
-        'Explainable AI reasoning generation',
-        'No hidden fees or surprise charges',
-        'Scalable based on your hiring volume',
-        'Transparent cost tracking dashboard',
+        'Optimized inference costs',
+        'Detailed transparent logging',
+        'No hidden data egress fees',
+        'Auto-scaling based on load',
+        'Cost allocation dashboard',
       ],
       gradient: 'from-emerald-500 to-teal-500',
     },
@@ -54,14 +54,14 @@ export default function PricingROI() {
 
   const roiMetrics = [
     {
-      label: 'Time Saved',
+      label: 'Speed',
       value: '75%+',
-      description: 'Reduce screening time',
+      description: 'Faster data processing',
       gradient: 'from-amber-500 to-orange-500',
       icon: <Clock className="w-6 h-6" />,
     },
     {
-      label: 'ROI Timeline',
+      label: 'Payback',
       value: '4-6',
       unit: 'months',
       description: 'Typical cost recovery',
@@ -69,16 +69,16 @@ export default function PricingROI() {
       icon: <TrendingUp className="w-6 h-6" />,
     },
     {
-      label: 'Quality',
-      value: '40%+',
-      description: 'Better candidate matches',
+      label: 'Accuracy',
+      value: '99%+',
+      description: 'Consistent outputs',
       gradient: 'from-purple-500 to-pink-500',
       icon: <TrendingUp className="w-6 h-6" />,
     },
     {
-      label: 'Efficiency',
-      value: '3x',
-      description: 'More candidates reviewed',
+      label: 'Scale',
+      value: '10x',
+      description: 'More capacity',
       gradient: 'from-emerald-500 to-teal-500',
       icon: <TrendingUp className="w-6 h-6" />,
     },
@@ -94,9 +94,9 @@ export default function PricingROI() {
           viewport={{ once: true }}
           className="text-2xl sm:text-3xl md:text-4xl font-bold text-text-primary mb-4"
         >
-          Pricing &{' '}
+          Investment &{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-            ROI — Clear and Transparent
+            Returns
           </span>
         </motion.h2>
         <motion.p
@@ -106,7 +106,7 @@ export default function PricingROI() {
           viewport={{ once: true }}
           className="text-text-secondary text-base sm:text-lg max-w-3xl mx-auto px-4"
         >
-          Transparent pricing with measurable returns on your investment
+          Clear, predictable infrastructure pricing with measurable business impact
         </motion.p>
       </div>
 
@@ -120,7 +120,7 @@ export default function PricingROI() {
       >
         <div className="relative w-full aspect-video bg-[#191F2F] rounded-2xl border-2 border-slate-gray/30 overflow-hidden group">
           <div className="absolute inset-0 flex items-center justify-center">
-      <Image src="/assets/offering/roi.png" alt="How It Works" width={1000} height={1000}  className="w-full h-full object-contain" />
+            <Image src="/assets/offering/roi.png" alt="How It Works" width={1000} height={1000} className="w-full h-full object-contain" />
           </div>
         </div>
       </motion.div>
@@ -222,7 +222,7 @@ export default function PricingROI() {
               ROI Insight
             </h3>
             <p className="text-text-secondary text-base sm:text-lg leading-relaxed max-w-3xl mx-auto">
-              Typical clients recover costs within 4-6 months through recruiter time savings and faster hiring cycles. The combination of reduced screening time and improved candidate quality delivers measurable business impact.
+              Typical clients recover investment within 4-6 months through operational automation and faster decision cycles. The combination of reduced manual processing and improved data accuracy delivers measurable business impact.
             </p>
           </div>
 

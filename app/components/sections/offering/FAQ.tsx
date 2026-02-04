@@ -10,39 +10,39 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: 'Is my candidate data secure and GDPR-compliant?',
+      question: 'Is my proprietary data secure and compliant?',
       answer:
-        'Yes, all data is hosted securely within your Cloud environment under your control. We implement enterprise-grade security measures and ensure full GDPR compliance. You maintain complete ownership and auditability of all candidate data, with comprehensive encryption both in transit and at rest.',
+        'Yes, all data is hosted securely within your Cloud environment under your control. We implement enterprise-grade security measures and ensure full data sovereignty. You maintain complete ownership and auditability of all data flows, with comprehensive encryption.',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
-      question: 'How quickly can this be integrated with our existing systems?',
+      question: 'How quickly can we integrate with our existing stack?',
       answer:
-        'Typically within 3-5 weeks, with minimal disruption to your current operations. Our integration process is designed to be seamless, working with your existing LinkedIn, WordPress, ATS, or custom career sites. We handle the technical complexity while your team continues normal operations.',
+        'Typically within 3-5 weeks. Our integration process is designed to be seamless, connecting with your ERPs, CRMs, and internal databases via secure APIs. We handle the pipeline complexity while your team continues normal operations.',
       gradient: 'from-purple-500 to-pink-500',
     },
     {
-      question: 'Can the AI be customized to our specific needs?',
+      question: 'Can the AI be fine-tuned to our specific domain?',
       answer:
-        'Absolutely. You can configure scoring thresholds, customize evaluation criteria, and train the AI with your hiring feedback. The system learns from your decisions and adapts to your company culture, values, and specific role requirements over time.',
+        'Absolutely. You can configure parameters, customize inference logic, and fine-tune models on your historical data. The system learns from your feedback and adapts to your specific business rules and objectives over time.',
       gradient: 'from-amber-500 to-orange-500',
     },
     {
-      question: 'Do we need technical resources from our side?',
+      question: 'Do we need internal AI experts to manage this?',
       answer:
-        'No, we handle end-to-end integration and support. Our team manages the Cloud setup, system integration, data migration, and ongoing maintenance. We provide comprehensive training for your recruiters and offer CET-aligned support to ensure smooth operations.',
+        'No, we provide a fully managed infrastructure service. Our team handles the Cloud setup, pipeline orchestration, and ongoing maintenance. We provide documentation and support to ensure your product teams can easily leverage the AI endpoints.',
       gradient: 'from-emerald-500 to-teal-500',
     },
     {
-      question: 'What makes your AI explainable and trustworthy?',
+      question: 'What makes your AI verifiable and safe?',
       answer:
-        'Our AI provides detailed reasoning for every candidate score, showing exactly which qualifications, experience, and skills influenced the evaluation. This transparency allows your recruiters to understand, validate, and override AI decisions when needed, maintaining human oversight.',
+        'Our "Glass-Box" architecture provides detailed reasoning for every inference, showing exactly why a prediction was made. This allows your teams to validate outputs and maintain human-in-the-loop oversight for critical decisions.',
       gradient: 'from-rose-500 to-pink-500',
     },
     {
-      question: 'How does pricing scale with our hiring volume?',
+      question: 'How does the pricing scaling work?',
       answer:
-        'The AI usage charge of €2-€4 per candidate scored scales with your hiring volume. There are no hidden fees—you only pay for candidates you actually screen. The setup fee is one-time, and optional annual support is fixed regardless of volume.',
+        'Usage pricing is based on volume (e.g., API calls or data points processed). There are no hidden fees—you only pay for what you use. The implementation fee is one-time, ensuring your infrastructure is built correctly from day one.',
       gradient: 'from-indigo-500 to-purple-500',
     },
   ];
@@ -84,11 +84,10 @@ export default function FAQ() {
             className="group"
           >
             <div
-              className={`relative overflow-hidden rounded-2xl backdrop-blur-sm transition-all duration-300 ${
-                openIndex === index
+              className={`relative overflow-hidden rounded-2xl backdrop-blur-sm transition-all duration-300 ${openIndex === index
                   ? 'bg-navy-dark/50 border-2 border-electric-blue/50 shadow-lg shadow-electric-blue/10'
                   : 'bg-navy-dark/30 border-2 border-slate-gray/20 hover:border-slate-gray/40'
-              }`}
+                }`}
             >
               {/* Background Gradient on Open */}
               {openIndex === index && (
@@ -106,9 +105,8 @@ export default function FAQ() {
                   {faq.question}
                 </h3>
                 <div
-                  className={`flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br ${faq.gradient} flex items-center justify-center text-white transition-transform duration-300 ${
-                    openIndex === index ? 'rotate-180' : ''
-                  }`}
+                  className={`flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br ${faq.gradient} flex items-center justify-center text-white transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''
+                    }`}
                 >
                   <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>

@@ -13,33 +13,33 @@ export default function HowItWorks() {
     {
       number: 1,
       icon: <Upload className="w-8 h-8" />,
-      title: 'Candidate Applies',
-      description: 'Candidates submit applications through your current site or LinkedIn.',
-      details: 'Applications flow seamlessly from all your integrated platforms into a single unified pipeline.',
+      title: 'Data Ingestion',
+      description: 'Connect your data sources securely via API or custom pipelines.',
+      details: 'We ingest structured and unstructured data while maintaining full encryption and privacy protocols.',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
       number: 2,
       icon: <Sparkles className="w-8 h-8" />,
-      title: 'AI Scores and Ranks',
-      description: 'Our AI analyzes and scores each profile with clear explanations.',
-      details: 'Advanced NLP and machine learning models evaluate candidates against job requirements in seconds.',
+      title: 'AI Processing',
+      description: 'Our agents analyze, predict, and reason over your data.',
+      details: 'Custom models trained on your specific context run inference to generate high-value insights.',
       gradient: 'from-purple-500 to-pink-500',
     },
     {
       number: 3,
       icon: <UserCheck className="w-8 h-8" />,
-      title: 'Recruiter Reviews & Selects',
-      description: 'Recruiters review AI shortlists and make final decisions—supported by transparent AI insights.',
-      details: 'Explainable AI reasoning helps you understand each score and make confident hiring decisions.',
+      title: 'Human Review',
+      description: 'Experts review low-confidence AI outputs to ensure quality.',
+      details: 'User-friendly interfaces allow your team to validate AI decisions and provide feedback for retraining.',
       gradient: 'from-amber-500 to-orange-500',
     },
     {
       number: 4,
       icon: <TrendingUp className="w-8 h-8" />,
-      title: 'Hire Confidently and Quickly',
-      description: 'Shorter time-to-hire and better hiring decisions power your growth.',
-      details: 'Track improvements in recruitment efficiency with built-in analytics and ROI metrics.',
+      title: 'Actionable Outcome',
+      description: 'Approved insights trigger downstream workflows automatically.',
+      details: 'Seamlessly push results back to your ERP, CRM, or production database.',
       gradient: 'from-emerald-500 to-teal-500',
     },
   ];
@@ -48,33 +48,33 @@ export default function HowItWorks() {
     {
       number: 1,
       icon: <Upload className="w-8 h-8" />,
-      title: 'Candidate Applies',
-      description: 'Candidates submit applications through your current site or LinkedIn.',
-      details: 'Applications flow seamlessly from all your integrated platforms into a single unified pipeline.',
+      title: 'Data Ingestion',
+      description: 'Connect your data sources securely via API or custom pipelines.',
+      details: 'We ingest structured and unstructured data while maintaining full encryption and privacy protocols.',
       gradient: 'from-blue-500 to-cyan-500',
     },
     {
       number: 2,
       icon: <Sparkles className="w-8 h-8" />,
-      title: 'AI Scores and Ranks',
-      description: 'Our AI analyzes and scores each profile with clear explanations.',
-      details: 'Advanced NLP and machine learning models evaluate candidates against job requirements in seconds.',
+      title: 'AI Processing',
+      description: 'Our agents analyze, predict, and reason over your data.',
+      details: 'Custom models trained on your specific context run inference to generate high-value insights.',
       gradient: 'from-purple-500 to-pink-500',
     },
     {
       number: 3,
       icon: <Zap className="w-8 h-8" />,
-      title: 'AI Shortlists Automatically',
-      description: 'AI autonomously selects top candidates based on your predefined criteria.',
-      details: 'Fully automated shortlisting eliminates manual review while maintaining high accuracy and consistency.',
+      title: 'Autonomous Action',
+      description: 'High-confidence predictions execute workflows automatically.',
+      details: 'Fully autonomous agents handle routine tasks, scaling your operations without adding headcount.',
       gradient: 'from-amber-500 to-orange-500',
     },
     {
       number: 4,
       icon: <TrendingUp className="w-8 h-8" />,
-      title: 'Hire Confidently and Quickly',
-      description: 'Shorter time-to-hire and better hiring decisions power your growth.',
-      details: 'Track improvements in recruitment efficiency with built-in analytics and ROI metrics.',
+      title: 'Continuous Optimization',
+      description: 'The system self-corrects and improves with every interaction.',
+      details: 'Closed-loop feedback mechanisms ensure your AI infrastructure gets smarter over time.',
       gradient: 'from-emerald-500 to-teal-500',
     },
   ];
@@ -103,7 +103,7 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-text-secondary text-base sm:text-lg max-w-3xl mx-auto px-4"
         >
-          A simple, streamlined process from application to hire
+          A streamlined path from raw data to business value
         </motion.p>
 
         {/* Level Toggle */}
@@ -117,23 +117,21 @@ export default function HowItWorks() {
           <div className="inline-flex bg-navy-dark/50 backdrop-blur-sm rounded-full p-1.5 border border-slate-gray/20">
             <button
               onClick={() => setActiveLevel('level1')}
-              className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${
-                activeLevel === 'level1'
+              className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${activeLevel === 'level1'
                   ? 'bg-gradient-to-r from-electric-blue to-accent-hover text-white shadow-lg shadow-electric-blue/25'
                   : 'text-text-secondary hover:text-text-primary'
-              }`}
+                }`}
             >
-              Level 1: Human-in-the-Loop
+              Mode 1: Human-in-the-Loop
             </button>
             <button
               onClick={() => setActiveLevel('level2')}
-              className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${
-                activeLevel === 'level2'
+              className={`px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 ${activeLevel === 'level2'
                   ? 'bg-gradient-to-r from-electric-blue to-accent-hover text-white shadow-lg shadow-electric-blue/25'
                   : 'text-text-secondary hover:text-text-primary'
-              }`}
+                }`}
             >
-              Level 2: Fully Autonomous
+              Mode 2: Fully Autonomous
             </button>
           </div>
         </motion.div>

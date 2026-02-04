@@ -50,15 +50,15 @@ export default function Hero() {
             className="flex justify-center"
           >
             <div className="flex items-center gap-2 sm:gap-3">
-            <Image src="/assets/logo.png" alt="Rakri AI" 
-          className="w-[70px] h-[70px] animate-spin transition-all"
-          style={{ animationDuration: '8s' }}
-          width={100} height={100} />
+              <Image src="/assets/logo.png" alt="Rakri AI"
+                className="w-[70px] h-[70px] animate-spin transition-all"
+                style={{ animationDuration: '8s' }}
+                width={100} height={100} />
 
-          <div className="flex flex-col items-start"> 
-            <span className="text-text-primary font-bold text-base sm:text-3xl leading-tight">  Rakri </span>
-            <span className="text-electric-blue text-[10px] sm:text-lg font-semibold leading-tight">  AI </span>
-          </div>
+              <div className="flex flex-col items-start">
+                <span className="text-text-primary font-bold text-base sm:text-3xl leading-tight">  Rakri </span>
+                <span className="text-electric-blue text-[10px] sm:text-lg font-semibold leading-tight">  AI </span>
+              </div>
             </div>
           </motion.div>
 
@@ -69,9 +69,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary leading-tight px-4 sm:px-0"
           >
-            Revolutionize Recruitment with AI That{' '}
+            Accelerate Your Business Transformation with{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-              Speeds Hiring by 75%
+              Secure AI Infrastructure
             </span>
           </motion.h1>
 
@@ -82,7 +82,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-base sm:text-lg md:text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed px-4 sm:px-0"
           >
-            Transform your recruitment process with AI-powered candidate screening that delivers transparent, explainable rankings while maintaining full GDPR compliance on your secure Cloud infrastructure.
+            We build and host the AI layer for your company. Seamlessly integrate custom AI models into your existing workflows with full GDPR compliance and data sovereignty on your own cloud infrastructure.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -93,10 +93,10 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center px-4 sm:px-0"
           >
             <Button href="/offering" variant="primary">
-              See Full Solution
+              Explore Our Solutions
             </Button>
             <Button calLink="rakri-ai-vhtois/15min" variant="secondary">
-              Book a Personalized Demo
+              Book a Strategy Call
             </Button>
           </motion.div>
 
@@ -107,7 +107,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="text-text-secondary italic text-xs sm:text-sm px-4 sm:px-0"
           >
-            "A Clearer View of Talent with Precision AI"
+            "Your Private AI Backbone, Built for Scale"
           </motion.p>
         </div>
       </Container>

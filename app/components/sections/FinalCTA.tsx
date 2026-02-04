@@ -21,10 +21,10 @@ export default function FinalCTA() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
               Forward-Thinking
             </span>{' '}
-            Recruitment Agencies Embracing AI
+            Enterprises Embracing AI
           </h2>
           <p className="text-base sm:text-lg text-text-secondary leading-relaxed mb-8">
-            We partner closely with recruitment teams to deliver custom AI solutions that increase productivity and quality. Schedule a demo to see how Rakri AI can transform your hiring process.
+            We partner closely with your technical and business teams to deliver custom AI infrastructure that drives growth. Schedule a strategy call to see how Rakri AI can transform your business.
           </p>
           <Button calLink="rakri-ai-vhtois/15min" variant="primary">
             Schedule Your Demo

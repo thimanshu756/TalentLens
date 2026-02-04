@@ -8,20 +8,18 @@ export default function TrustBar() {
   const trustPoints = [
     {
       icon: <ShieldCheck className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" />,
-
-      // same GDPR shield icon
       title: 'Committed to GDPR & Data Privacy',
-      description: 'We host all data within your cloud to uphold strict EU data laws and safeguard candidate information.',
+      description: 'We host all data within your cloud to uphold strict EU data laws and safeguard proprietary business information.',
     },
     {
       icon: <Users className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" />,
-      title: 'Expert-Led Development & Support',
-      description: 'Our team aligns with European business hours (CET) for seamless communication and personalized assistance.',
+      title: 'Expert-Led Implementation',
+      description: 'Our team aligns with European business hours (CET) for seamless communication and personalized implementation support.',
     },
     {
       icon: <Award className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" />,
-      title: 'Proven Results & ROI',
-      description: 'Our AI solutions have helped clients increase hiring speed by up to 75%, improving recruitment efficiency.',
+      title: 'Proven Infrastructure ROI',
+      description: 'Our AI solutions help clients reduce operational costs and accelerate digital transformation initiatives.',
     },
     {
       icon: <Lock className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" />,
@@ -29,7 +27,7 @@ export default function TrustBar() {
       description: 'Comprehensive security protocols to protect your data and ensure operational continuity.',
     },
   ];
-  
+
 
   return (
     <Section background="navy">
@@ -41,7 +39,7 @@ export default function TrustBar() {
           viewport={{ once: true }}
           className="text-2xl sm:text-3xl md:text-4xl font-bold text-text-primary mb-2"
         >
-          Why Recruiters{' '}
+          Why Enterprises{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
             Trust
           </span>{' '}

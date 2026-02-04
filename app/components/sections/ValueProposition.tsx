@@ -7,26 +7,26 @@ export default function ValueProposition() {
   const values = [
     {
       emoji: '⚡',
-      title: 'Accelerate Screening',
-      description: 'Reduce manual screening time by up to 75%, enabling quicker candidate shortlists.',
+      title: 'Rapid AI Integration',
+      description: 'Launch production-ready AI features in weeks. We handle the pipeline complexity so you can focus on usage.',
     },
     {
       emoji: '🎯',
-      title: 'Accurate Candidate Matching',
-      description: 'AI-driven scoring aligns candidates precisely with job requirements.',
+      title: 'Precision Custom Models',
+      description: 'Integrate models fine-tuned on your specific business data for superior accuracy and relevance.',
     },
     {
       emoji: '💡',
-      title: 'Explainable AI Insights',
-      description: 'AI-generated reasoning allows recruiters to understand every shortlisting decision.',
+      title: 'Explainable & Transparent',
+      description: 'Glass-box AI architecture that explains its reasoning, ensuring trust and auditability for enterprise use.',
     },
     {
       emoji: '🌍',
-      title: 'Localized for Europe & US',
-      description: 'Designed to comply with GDPR and tailored to meet market-specific hiring norms.',
+      title: 'Data Sovereignty & Security',
+      description: 'Hosted on your private cloud (AWS/GCP/Azure). Your data never leaves your controlled environment.',
     },
   ];
-  
+
 
   return (
     <Section background="slate">
@@ -38,11 +38,11 @@ export default function ValueProposition() {
           viewport={{ once: true }}
           className="text-2xl sm:text-3xl md:text-4xl font-bold text-text-primary mb-4"
         >
-          Why{' '}
+          Why Build Your{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-            Rakri AI
+            AI Foundation
           </span>{' '}
-          is the Future of Recruitment
+          with Rakri?
         </motion.h2>
       </div>
 

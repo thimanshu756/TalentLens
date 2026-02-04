@@ -8,19 +8,19 @@ export default function HowWeHelp() {
   const benefits = [
     {
       icon: '🎯',
-      text: 'Automate resume analysis and candidate scoring with transparent AI explanations',
+      text: 'Deploy custom AI agents and models trained on your proprietary data without data leakage risks',
     },
     {
       icon: '⚡',
-      text: 'Shortlist the best candidates faster, whether you prefer a human-in-the-loop or fully autonomous process',
+      text: 'Integrate AI into your existing software ecosystem via robust, developer-friendly APIs and webhooks',
     },
     {
       icon: '🔐',
-      text: 'Maintain complete control of your data, safely hosted on your cloud environment',
+      text: 'Maintain complete data sovereignty with infrastructure that runs securely in your own cloud environment',
     },
     {
       icon: '🔗',
-      text: 'Integrate effortlessly with your existing hiring channels like LinkedIn and your company website',
+      text: 'Scale effortlessly from a single pilot project to enterprise-wide AI adoption with managed pipelines',
     },
   ];
 
@@ -34,7 +34,7 @@ export default function HowWeHelp() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-        <Image src="/assets/landing/screening-time.png" alt="How We Help" width={500} height={500} />
+          <Image src="/assets/landing/screening-time.png" alt="How We Help" width={500} height={500} />
         </motion.div>
 
         {/* Content */}
@@ -45,11 +45,11 @@ export default function HowWeHelp() {
           viewport={{ once: true }}
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-text-primary mb-6 sm:mb-8">
-            Cut Your{' '}
+            Seamless{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-              Screening Time
-            </span>
-            , Not Corners
+              Integration
+            </span>{' '}
+            into Your Ecosystem
           </h2>
 
           <div className="space-y-4 sm:space-y-6">

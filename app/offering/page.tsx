@@ -11,8 +11,8 @@ import FAQ from '../components/sections/offering/FAQ';
 import CTASection from '../components/sections/offering/CTASection';
 
 export const metadata: Metadata = {
-  title: 'Our Offering | Rakri AI',
-  description: 'Discover how Rakri AI revolutionizes recruitment with GDPR-compliant, AI-powered candidate screening. 75%-90% faster screening, bias reduction, and seamless integration.',
+  title: 'Enterprise AI Solutions | Rakri AI',
+  description: 'Comprehensive AI infrastructure solutions. From custom model training to secure hosting, we help you build your enterprise AI backbone.',
 };
 
 export default function OfferingPage() {

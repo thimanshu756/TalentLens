@@ -9,41 +9,41 @@ export default function KeyBenefits() {
   const benefits = [
     {
       icon: <Zap className="w-8 h-8" />,
-      title: 'Reduce Screening Time by 75%+',
+      title: 'Operational Efficiency at Scale',
       description:
-        'Manually reviewing CVs is slow and error-prone. Our AI automates resume parsing and scoring, freeing up your recruiters to focus on candidate engagement and closing.',
+        'Manual processes bottleneck growth. Our AI automates complex workflows, parsing unstructured data and generating actionable insights to speed up business operations.',
       details: [
-        'Automated resume analysis in seconds',
-        'Instant candidate ranking and prioritization',
+        'Automated data processing pipelines',
+        'Instant decision support and analysis',
         'Eliminate repetitive manual tasks',
-        'Focus on high-value candidate interactions',
+        'Focus teams on high-value strategic work',
       ],
       gradient: 'from-amber-500 to-orange-500',
       iconBg: 'from-amber-500/20 to-orange-500/20',
     },
     {
       icon: <Target className="w-8 h-8" />,
-      title: 'Higher Quality & Consistency',
+      title: 'Standardized Decision Making',
       description:
-        'Paper CV reviews vary by recruiter mood or bias. AI scoring ensures consistent, objective evaluation across candidates to increase the chance of finding the best hires.',
+        'Human evaluation can be subjective. AI ensures consistent, objective analysis across all your data, increasing the reliability of your business outcomes.',
       details: [
-        'Objective, data-driven candidate evaluation',
-        'Consistent scoring criteria across all applications',
-        'Reduced unconscious bias in initial screening',
-        'Improved quality of shortlisted candidates',
+        'Objective, data-driven methodology',
+        'Consistent criteria application',
+        'Reduced unexpected variances',
+        'Improved quality of business outputs',
       ],
       gradient: 'from-blue-500 to-cyan-500',
       iconBg: 'from-blue-500/20 to-cyan-500/20',
     },
     {
       icon: <Brain className="w-8 h-8" />,
-      title: 'AI That Learns With You',
+      title: 'Adaptive AI Models',
       description:
-        'Our system adapts to your hiring patterns via continuous feedback, enabling smarter shortlists aligned with your company\'s unique values and criteria.',
+        'Our system adapts to your business needs via fine-tuning, enabling smarter models aligned with your company\'s unique data and objectives.',
       details: [
-        'Continuous learning from your hiring decisions',
-        'Customizable scoring models for your needs',
-        'Adapts to company culture and values',
+        'Continuous learning from your feedback',
+        'Customizable scoring & inference models',
+        'Adapts to your specific domain',
         'Improves accuracy over time',
       ],
       gradient: 'from-purple-500 to-pink-500',
@@ -51,14 +51,14 @@ export default function KeyBenefits() {
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: 'Full Data Privacy Control',
+      title: 'Enterprise-Grade Data Sovereignty',
       description:
         'With your data hosted securely on your own Cloud environment, you meet all compliance demands without sacrificing flexibility or performance.',
       details: [
-        'Data hosted on your cloud',
+        'Data hosted on your cloud (AWS/Azure/GCP)',
         'Complete GDPR and regional compliance',
         'Full audit trails and data control',
-        'Enterprise-grade security standards',
+        'SOC2 ready infrastructure',
       ],
       gradient: 'from-emerald-500 to-teal-500',
       iconBg: 'from-emerald-500/20 to-teal-500/20',
@@ -87,7 +87,7 @@ export default function KeyBenefits() {
           viewport={{ once: true }}
           className="text-text-secondary text-base sm:text-lg max-w-3xl mx-auto px-4"
         >
-          Tangible improvements that transform your recruitment process
+          Tangible operational improvements that transform your business
         </motion.p>
       </div>
 
@@ -100,7 +100,7 @@ export default function KeyBenefits() {
         className="mb-12 sm:mb-16 max-w-5xl mx-auto"
       >
         <div className="relative w-full aspect-video bg-gradient-to-br from-slate-gray/20 to-navy-dark/40 rounded-2xl border-2 border-slate-gray/30 overflow-hidden group">
-       <Image src="/assets/offering/brain-illustration.png" alt="Key Benefits" width={1000} height={1000}  className="w-full h-full object-cover" />
+          <Image src="/assets/offering/brain-illustration.png" alt="Key Benefits" width={1000} height={1000} className="w-full h-full object-cover" />
         </div>
       </motion.div>
 

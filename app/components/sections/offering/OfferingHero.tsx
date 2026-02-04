@@ -19,15 +19,15 @@ export default function OfferingHero() {
           className="text-center max-w-4xl mx-auto"
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary mb-4 sm:mb-6">
-            Our{' '}
+            Enterprise{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-accent-hover">
-              Offering
+              AI Solutions
             </span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-text-secondary leading-relaxed px-4 sm:px-0">
-            Comprehensive AI-powered recruitment solutions designed for modern
-            agencies. Experience the perfect blend of automation, compliance, and
-            human expertise.
+            From custom model training to secure deployment, we handle the heavy
+            lifting of AI infrastructure. Build with confidence on a platform
+            designed for security, scalability, and control.
           </p>
         </motion.div>
       </Container>

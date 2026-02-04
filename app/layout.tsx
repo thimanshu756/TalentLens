@@ -17,24 +17,24 @@ export const metadata: Metadata = {
   // Title configuration with template for page-specific titles
   // Template allows pages to inject their title: %s | Site Name
   title: {
-    default: "Rakri AI | AI-Powered GDPR-Compliant Recruitment Platform",
+    default: "Rakri AI | Secure Enterprise AI Infrastructure & Integration",
     template: "%s | Rakri AI", // Pages can use: export const metadata = { title: "Services" }
   },
 
   // Meta description (150-160 characters optimal for Google search results)
   // This appears in search engine results and social media previews
-  description: "Transform hiring with AI. Rakri AI delivers 75% faster candidate screening with explainable AI scoring, hosted securely on your cloud. Fully GDPR-compliant recruitment solutions for European and US agencies.",
+  description: "Accelerate your business transformation with Rakri AI. We provide secure, GDPR-compliant AI infrastructure and seamless integration strategies for scaling enterprises.",
 
   // Keywords for search engines (though less important than content quality)
   // Focus on primary services, location, and unique value propositions
   keywords: [
-    "AI recruitment",
-    "GDPR recruitment software",
-    "candidate screening",
-    "cloud recruitment",
-    "European hiring solutions",
-    "AI candidate scoring",
-
+    "AI Infrastructure",
+    "Enterprise AI Integration",
+    "Secure LLM Hosting",
+    "GDPR Compliant AI",
+    "Custom AI Solutions",
+    "AI Data Sovereignty",
+    "Managed AI Pipelines"
   ],
 
   // Author and creator information for content attribution

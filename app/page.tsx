@@ -15,15 +15,15 @@ import TrustBar from './components/sections/TrustBar';
 // The title will use the template from layout.tsx if not using 'default' key
 export const metadata: Metadata = {
   // Using the default key to override the entire title (no template applied)
-  title: 'Rakri AI | AI-Powered GDPR-Compliant Recruitment Platform',
+  title: 'Rakri AI | Secure Enterprise AI Infrastructure & Integration',
 
   // Page-specific description optimized for home page
-  description: 'Transform hiring with AI. Rakri AI delivers 75% faster candidate screening with explainable AI scoring, hosted securely on your cloud. Fully GDPR-compliant recruitment solutions for European and US agencies.',
+  description: 'Accelerate your business transformation with Rakri AI. We provide secure, GDPR-compliant AI infrastructure and seamless integration strategies for scaling enterprises.',
 
   // Page-specific Open Graph metadata for social sharing
   openGraph: {
-    title: 'Rakri AI | AI-Powered GDPR-Compliant Recruitment Platform',
-    description: 'Transform hiring with AI: 75% faster candidate screening, explainable AI scoring, and fully GDPR-compliant recruitment solutions.',
+    title: 'Rakri AI | Secure Enterprise AI Infrastructure & Integration',
+    description: 'Build your private AI backbone. Secure infrastructure, custom model integration, and full data sovereignty for modern enterprises.',
     url: 'https://rakriai.com', // REPLACE_ME: Update with your domain
     type: 'website',
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: '/assets/landing/Rakri_OG_IMG.png',
         width: 1200,
         height: 630,
-        alt: 'Rakri AI - Transform Hiring with AI',
+        alt: 'Rakri AI - Enterprise AI Infrastructure',
       },
     ],
   },
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   // Page-specific Twitter Card metadata
   twitter: {
     card: 'summary_large_image',
-    title: 'Rakri AI | AI-Powered GDPR-Compliant Recruitment Platform',
-    description: 'Transform hiring with AI: 75% faster candidate screening, fully GDPR-compliant',
+    title: 'Rakri AI | Secure Enterprise AI Infrastructure & Integration',
+    description: 'Build your private AI backbone. Secure, scalable, and GDPR-compliant.',
     images: ['/assets/landing/Rakri_OG_IMG.png'],
   },
 };
@@ -58,7 +58,7 @@ export default function Home() {
 
     // Basic company information
     name: 'Rakri AI', // REPLACE_ME: Your company name
-    description: 'AI-powered GDPR-compliant recruitment platform that delivers 75% faster candidate screening with explainable AI scoring, hosted securely on your cloud.',
+    description: 'Enterprise-grade AI infrastructure provider delivering secure, GDPR-compliant AI integration and managed pipelines for scaling businesses.',
     url: 'https://rakriai.com', // REPLACE_ME: Your website URL
 
     // Company logo (appears in Google Knowledge Panel)

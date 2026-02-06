@@ -56,7 +56,7 @@ export default function Footer() {
                 </div>
               </div>
               <p className="text-text-secondary text-sm leading-relaxed">
-                A Clearer View of Talent with Precision AI
+Just tell use your problem and we will solve it.
               </p>
             </div>
 
